@@ -6,84 +6,85 @@ HTML
 <head>
     <title>Yahtzee Dice Roller</title>
     <style>
-        body {
-            text-align: center;
-            background-color: #7dc4b2;
-        }
+ body {
+  text-align: center;
+  background-color: #F5D6EC;
+}
 
-        .description {
-            width: 800px;
-            margin: auto auto 50px;
-        }
+.description {
+  width: 800px;
+  margin: auto auto 50px;
+}
 
-        h1 {
-            font-family: Georgia;
-            font-size: 50px;
-        }
+h1 {
+  font-family: Georgia;
+  font-size: 50px;
+}
 
-        p {
-            font-family: Helvetica;
-            font-size: 24px;
-        }
+p {
+  font-family: Helvetica;
+  font-size: 24px;
+}
 
-        .dice {
-            height: 100px;
-            margin: 10px 10px 0px;
-        }
+.dice {
+  height: 100px;
+  margin: 10px 10px 0px;
+}
 
-        .lock {
-            height: 20px;
-            margin: auto 50px 30px;
-        }
+.lock {
+  height: 20px;
+  margin: auto 50px 30px;
+}
 
-        .button {
-            background-color: #672A4E;
-            color: #fff;
-            width: 120px;
-            height: 30px;
-            cursor: pointer;
-            margin: 20px 15px;
-            padding: .5em .5em;
-            font-family: Helvetica;
-            border-radius: 10px;
-            line-height: 30px;
-            display: inline-block;
-        }
-    </style>
+.button {
+  background-color: #672A4E;
+  color: #fff;
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+  margin: 20px 15px;
+  padding: .5em .5em;
+  font-family: Helvetica;
+  border-radius: 10px;
+  line-height: 30px;
+  display: inline-block;
+}
+</style>
 </head>
 <body>
-    <div class='description'>
-        <h1>Team Yahtzee Dice Roller</h1>
-        <p>Click the button to roll the dice. Click the lock icon to save the dice roll for the next turn. Each player can roll up to three times per turn.</p>
-    </div>
-
-    <div class='dice-section'>
-        <img id='dice1' class='dice' src='https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png'>
-        <img id='dice2' class='dice' src='https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png'>
-        <img id='dice3' class='dice' src='https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png'>
-        <img id='dice4' class='dice' src='https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png'>
-        <img id='dice5' class='dice' src='https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png'>
-    </div>
-
-    <div class='lock-section'>
-        <img id='lock1' class='lock' src='https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png'>
-        <img id='lock2' class='lock' src='https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png'>
-        <img id='lock3' class='lock' src='https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png'>
-        <img id='lock4' class='lock' src='https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png'>
-        <img id='lock5' class='lock' src='https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png'>
-    </div>
-
-    <div id='counter'>
-        <p>Roll Number: <span id='roll-counter'></span></p>
-    </div>
-
-    <div id='roll-button' class='button'>
-        Roll the Dice
-    </div>
-
-    <div id='reset-button' class='button'>
-        Reset 
-    </div>
+  <div class='description'>
+    <h1>Yahtzee Dice Roller</h1>
+    <p>Click the button to roll the dice. Click the lock icon to save the dice roll for the next turn. Each player can roll up to three times per turn.</p>
+ </div>
+   
+ <div class='dice-section'>
+   <img id='dice1' class='dice' src='https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png'>
+   <img id='dice2' class='dice' src='https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png'>
+   <img id='dice3' class='dice' src='https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png'>
+   <img id='dice4' class='dice' src='https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png'>
+   <img id='dice5' class='dice' src='https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png'>
+ </div>
+ 
+ <div class='lock-section'>
+   <img id='lock1' class='lock' src='https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png'>
+   <img id='lock2' class='lock' src='https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png'>
+   <img id='lock3' class='lock' src='https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png'>
+   <img id='lock4' class='lock' src='https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png'>
+   <img id='lock5' class='lock' src='https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png'>
+ </div>
+ 
+ <div id='counter'>
+   <p>Roll Number: <span id='roll-counter'></span></p>
+ </div>
+ 
+ <div id='roll-button' class='button'>
+   Roll the Dice
+ </div>
+ 
+ <div id='reset-button' class='button'>
+  Reset 
+ </div>
+ 
     <script src="yahtzee.js"></script> 
 </body>
 </html>
