@@ -6,8 +6,8 @@ let dice3ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/di
 let dice4ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.004.png';
 let dice5ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.005.png';
 let dice6ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.006.png';
-let lockImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.007.png';
-let unlockImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.008.png';
+let lockImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.008.png';
+let unlockImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.007.png';
 
 //Save all necessary elements as variables
 let dice1 = document.getElementById('dice1');
