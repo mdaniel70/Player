@@ -1,13 +1,13 @@
 //Save all image src paths as variables
-let diceImagePath = 'https://cdn1.iconfinder.com/data/icons/inked/100/Dice-512.png';
-let dice1ImagePath = 'https://cdn2.iconfinder.com/data/icons/dice-roll/100/dice_1-512.png';
-let dice2ImagePath = 'https://cdn2.iconfinder.com/data/icons/dice-roll/100/dice_2-512.png';
-let dice3ImagePath = 'https://cdn2.iconfinder.com/data/icons/dice-roll/100/dice_3-512.png';
-let dice4ImagePath = 'https://cdn2.iconfinder.com/data/icons/dice-roll/100/dice_4-512.png';
-let dice5ImagePath = 'https://cdn2.iconfinder.com/data/icons/dice-roll/100/dice_5-512.png';
-let dice6ImagePath = 'https://cdn2.iconfinder.com/data/icons/dice-roll/100/dice_6-512.png';
-let lockImagePath = 'https://simpleicon.com/wp-content/uploads/lock-2.png';
-let unlockImagePath = 'https://icons.iconarchive.com/icons/icons8/windows-8/512/Very-Basic-Unlock-icon.png';
+let diceImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.009.png';
+let dice1ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.001.png';
+let dice2ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.002.png';
+let dice3ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.003.png';
+let dice4ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.004.png';
+let dice5ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.005.png';
+let dice6ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.006.png';
+let lockImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.007.png';
+let unlockImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.008.png';
 
 //Save all necessary elements as variables
 let dice1 = document.getElementById('dice1');
